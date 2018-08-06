@@ -6,7 +6,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-class smc extends PluginBase {
+class main extends PluginBase {
 
     public function onEnable(){
             $this->getLogger()->info("onEnable() has been called");
