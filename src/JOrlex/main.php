@@ -1,12 +1,12 @@
 <?php declare(strict_types = 1);
 
-namespace JOrlex\smc\main;
+namespace JOrlex\smc;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-class main extends PluginBase {
+class smc extends JOrlex {
 
     public function onEnable(){
             $this->getLogger()->info("onEnable() has been called");
