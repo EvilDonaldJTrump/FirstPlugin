@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace JOrlex\smc;
+namespace JOrlex\smc\main;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
