@@ -1,0 +1,6 @@
+Name: RacconBlades
+Main: smc/RacconBlades
+Version: 1.0.0
+Api:
+- 3.0.0
+- 4.0.0
