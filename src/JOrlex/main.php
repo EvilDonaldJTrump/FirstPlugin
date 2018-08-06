@@ -20,13 +20,4 @@ class smc extends Pluginbase {
     }
 }
 
-public function onCommand(CommandSender $sender, Command $cmd, label $label, array $args){
-if(strtolower($command->getName()) === "smc"){
-  // Execute logic
-  return true;
-}
-
-return false;
-}
-
   ?>
