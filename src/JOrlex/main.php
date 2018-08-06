@@ -19,12 +19,3 @@ class smc extends PluginBase {
             $this->getLogger()->info("onDisable() has been called");
     }
 }
-
-public function onCommand(CommandSender $sender, Command $cmd, label $label, array $args){
-if(strtolower($command->getName()) === "smc"){
-  // Execute logic
-  return true;
-}
-
-return false;
-}
