@@ -19,5 +19,3 @@ class smc extends Pluginbase {
             $this->getLogger()->info("onDisable() has been called");
     }
 }
-
-  ?>
