@@ -6,7 +6,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-class smc extends JOrlex {
+class Main extends PluginBase implements Listner {
 
     public function onEnable(){
             $this->getLogger()->info("onEnable() has been called");
