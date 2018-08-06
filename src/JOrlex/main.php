@@ -1,6 +1,6 @@
 <?php
 
-namespace RacconBlades\smc;
+namespace JOrlex\smc;
 
 use pocketmine\plugin\Pluginbase;
 use pocketmine\command\Command;
